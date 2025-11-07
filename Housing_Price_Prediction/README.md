@@ -67,5 +67,5 @@ Tools & Libraries
 
  Author
 Oluwatimilehin Amusan Email: timilehin.amusan1@gmail.com
-LinkedIn: [linkedin.com/in/yourprofile)
+LinkedIn: [[linkedin.com/in/yourprofile](https://www.linkedin.com/in/oluwatimilehin-amusan))
 GitHub Portfolio: https://github.com/EsteemTurnsTechy

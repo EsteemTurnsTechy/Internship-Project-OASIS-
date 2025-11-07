@@ -8,7 +8,7 @@ Each project in this repository focuses on a unique domain — from marketing an
 
    Projects Overview
 
- 1. 📱 [Android App Market Analysis](./Android%20app%20market(project%202,level2).ipynb)
+ 1.  [Android App Market Analysis](./Android%20app%20market(project%202,level2).ipynb)
 Goal: To analyze app market data and to uncover patterns between app ratings, installs, and popularity.  
 Key Insights:
 - Higher ratings correlates with higher installs, but not always with revenue.

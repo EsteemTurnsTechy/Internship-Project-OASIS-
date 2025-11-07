@@ -7,7 +7,7 @@ To build a predictive model that estimates house prices based on various feature
 
 Project Overview
 This project aims to understand how different variables affect housing prices and to create a reliable model capable of predicting house values.  
-It demonstrates end-to-end data science workflow — from exploration to model evaluation.
+It demonstrates end-to-end data science workflow from exploration to model evaluation.
 
 ---
 

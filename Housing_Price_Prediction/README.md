@@ -46,8 +46,8 @@ It demonstrates end-to-end data science workflow from exploration to model evalu
 ---
 
 Tools & Libraries
-- Python:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn  
-- **Jupyter Notebook / Colab
+- Python: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn  
+- Jupyter Notebook / Colab
 
 ---
 

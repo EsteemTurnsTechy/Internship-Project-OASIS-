@@ -1,77 +1,79 @@
+ Data Analyst Portfolio – TechyEsteem
 
-Marketing Analytics Project
+Welcome to my Data Analytics Portfolio, a collection of real-world projects that demonstrate my ability to analyze data, visualize insights, and solve business problems using data-driven approaches.
 
-  Objective
-To analyze marketing campaign performance and customer data in order to uncover insights that help optimize marketing strategies and drive better business decisions.
-
----
-
-   Project Overview
-This project focuses on understanding how different marketing channels, demographics, and spending behaviors influence customer engagement and sales outcomes.  
-It involves exploring customer segmentation, campaign response rates, and patterns in marketing performance.
+Each project in this repository focuses on a unique domain — from marketing analytics to fraud detection — showcasing my technical, analytical, and storytelling skills.
 
 ---
 
- Key Steps
-1. Data Preparation
-   - Imported, cleaned, and standardized the marketing dataset.
-   - Handled missing values and ensured accurate data types for analysis.
+   Projects Overview
 
-2. Exploratory Data Analysis (EDA)
-   - Investigated relationships between customer demographics and campaign response.
-   - Visualized marketing trends such as campaign effectiveness, age vs. spending, and channel performance.
+ 1. 📱 [Android App Market Analysis](./Android%20app%20market(project%202,level2).ipynb)
+Goal: To analyze app market data and to uncover patterns between app ratings, installs, and popularity.  
+Key Insights:
+- Higher ratings correlates with higher installs, but not always with revenue.
+- Paid apps perform better in quality metrics, while free apps dominate in downloads.
+- Categories like "Games" and "Productivity" lead in user engagement.
 
-3. Customer Segmentation
-   - Grouped customers based on common characteristics.
-   - Identified high-value and low-response customer clusters.
-
-4. Performance Insights
-   - Evaluated which marketing campaigns yielded the best return.
-   - Discovered correlations between spending habits and campaign engagement.
-
-5. Recommendations
-   - Suggested targeted strategies to improve customer retention and campaign ROI.
+Skills Demonstrated: Data Wrangling, Trend Analysis, Visualization, App Market Insights.
 
 ---
 
- Key Insights
-- Older customers tend to respond more positively to loyalty-based campaigns.
-- Campaigns with personalized messaging achieved higher conversion rates.
-- Direct marketing channels performed better than general ads for high-value customers.
+ 2.  [Credit Card Fraud Detection](./Credit_card_Fraud_Detection.ipynb)
+Goal: To identify fraudulent transactions using machine learning classification models.  
+Key Insights:
+- Fraudulent transactions are rare but detectable with model tuning and sampling.
+- Logistic Regression and Random Forest provided high accuracy with balanced precision-recall.
+- Feature scaling and resampling improved detection rates.
+
+Skills Demonstrated: Machine Learning, Data Preprocessing, Model Evaluation, Imbalanced Data Handling.
 
 ---
 
-Tools & Libraries
-- Python: Pandas, NumPy, Matplotlib, Seaborn  
-- Jupyter Notebook / Colab
+ 3. 🏡 [Housing Price Prediction](./housing%20prediction.ipynb)
+Goal: To build a predictive model, to estimate housing prices based on key property attributes.  
+Key Insights:
+- Location and living area are the most influential factors.
+- Linear Regression performed best for continuous value prediction.
+- Data normalization improved model performance and accuracy.
+
+Skills Demonstrated: Regression Modeling, Feature Engineering, Predictive Analytics.
 
 ---
 
-  Skills Demonstrated
-- Marketing Data Analysis  
-- Exploratory Data Visualization  
-- Customer Segmentation  
-- Data Cleaning & Transformation  
-- Insight Communication  
+ [Marketing Analytics](./project_2_level_1_marketing_analytics.ipynb)
+Goal: Analyze marketing campaign data to improve targeting and customer engagement.
+
+Key Insights:
+- Personalized campaigns have higher response rates.
+- Older customer segments respond better to loyalty offers.
+- Direct marketing channels outperform general ads for high-value customers.
+
+Skills Demonstrated: Marketing Data Analysis, Segmentation, EDA, Visualization.
 
 ---
 
- Notebook
-[View Project File](./project_2_level_1_marketing_analytics.ipynb)
+   Technical Skills
+- Programming: Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)  
+- Data Tools: Excel, SQL, Google Sheets, Jupyter Notebook  
+- Analysis: Data Cleaning, Visualization, Feature Engineering, Statistical Analysis  
+- Soft Skills: Critical Thinking, Business Communication, Problem-Solving  
 
 ---
 
-- [💳 Credit Card Fraud Detection](../Credit_card_Fraud_Detection.ipynb)
-- [📱 Android App Market Analysis](../Android%20app%20market(project%202,level2).ipynb)
-- [🏡 Housing Price Prediction](../housing%20prediction.ipynb)
+   Data Storytelling Philosophy
+I believe that every data tells a story and my role as an analyst is to uncover patterns that drive smarter business decisions.  
+Through each project, I focus on clarity, insight, and impact.
 
 ---
 
- Author
- Oluwatimilehin Amusan 
- Email: timilehin.amusan1@gmail.com 
- LinkedIn: (https://www.linkedin.com/in/oluwatimilehin-amusan))  
- GitHub: [https://github.com/EsteemTurnsTechy](https://github.com/EsteemTurnsTechy)
+  Contact
+ Name: Oluwatimilehin Amusan 
+ Role: Data Analyst | Business Analyst | Insights Specialist  
+ LinkedIn:(https://www.linkedin.com/in/oluwatimilehin-amusan)
+ Email:timilehin.amusan1@gmail.com 
 
-**Esteem Turns Techy**  
-_Data Analyst focused on uncovering actionable insights through data visualization and business analytics._
+---
+
+ _"Data dont just speak, it reveals and predicts opportunities"
+ — TechyEsteem

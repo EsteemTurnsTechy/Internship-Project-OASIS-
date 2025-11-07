@@ -1,113 +1,79 @@
-<<<<<<< HEAD
-# Oasis-Internship
-My Project
-=======
-# Internship-Project-OASIS-
->>>>>>> c31e42bd735a744547bc75817c514e4220520c2a
-# 📱 Android App Market Analysis
+ Data Analyst Portfolio – TechyEsteem
 
- **Project Overview**
-This project explores the Android App Market on Google Play to uncover insights about app ratings, pricing, popularity, and installation trends.  
-It demonstrates core data analyst skills in **data cleaning**, **exploratory data analysis (EDA)**, and **visualization** using **Python** and **Jupyter Notebook**.
+Welcome to my Data Analytics Portfolio, a collection of real-world projects that demonstrate my ability to analyze data, visualize insights, and solve business problems using data-driven approaches.
+
+Each project in this repository focuses on a unique domain — from marketing analytics to fraud detection — showcasing my technical, analytical, and storytelling skills.
 
 ---
 
- **Dataset**
-The dataset used was downloaded from **Kaggle**:  
-👉 [Android App Market on Google Play](https://www.kaggle.com/datasets/utshabkumarghosh/android-app-market-on-google-play)
+ Projects Overview
 
-It contains details of apps such as:
-- App name, category, and type (free or paid)
-- Ratings and number of reviews
-- Size, installs, and price
-- Content rating and genres
-- User reviews (for sentiment analysis)
+ 1.  [Android App Market Analysis](./Android%20app%20market(project%202,level2).ipynb)
+Goal:To analyze app market data,to uncover patterns between app ratings, installs, and popularity.  
+Key Insights:
+- Higher ratings correlate with higher installs, but not always with revenue.
+- Paid apps perform better in quality metrics, while free apps dominate in downloads.
+- Categories like "Games" and "Productivity" lead in user engagement.
 
----
-
- Tools and Libraries
--Python: Pandas, NumPy  
-- Visualization: Matplotlib, Seaborn  
-- Text Analysis: WordCloud, NLTK (for review sentiments)  
-- Notebook: Jupyter Lab / Jupyter Notebook  
-- Version Control: Git & GitHub  
+Skills Demonstrated: Data Wrangling, Trend Analysis, Visualization, App Market Insights.
 
 ---
 
-###  Data Preparation
-- Imported and merged the `apps.csv` and `user_reviews.csv` datasets.  
-- Cleaned data by handling missing values and converting incorrect data types.  
-- Stripped symbols (like `$` and `+`) and standardized numerical columns such as `Installs`, `Size`, and `Price`.  
-- Converted categorical columns to lowercase for consistency.  
+ 2.  [Credit Card Fraud Detection](./Credit_card_Fraud_Detection.ipynb)
+Goal:To Identify fraudulent transactions using machine learning classification models.  
+Key Insights:
+- Fraudulent transactions are rare but detectable with model tuning and sampling.
+- Logistic Regression and Random Forest provided high accuracy with balanced precision-recall.
+- Feature scaling and resampling improved detection rates.
+
+Skills Demonstrated: Machine Learning, Data Preprocessing, Model Evaluation, Imbalanced Data Handling.
 
 ---
 
-### Exploratory Data Analysis (EDA)
+ 3.  [Housing Price Prediction](./housing%20prediction.ipynb)
+Goal:To build a predictive model, to estimate housing prices based on key property attributes.  
+Key Insights:
+- Location and living area are the most influential factors.
+- Linear Regression performed best for continuous value prediction.
+- Data normalization improved model performance and accuracy.
 
- 1️⃣Category Exploration
-- Most apps fall under the Family, Game, and Tools categories.  
-- Entertainment-related apps dominate in total volume and popularity.  
-- Visualization: Bar chart showing number of apps per category.
-
- 2️⃣App Ratings and Popularity
-- Average rating across the Play Store is around 4.2 stars.  
-- Apps with more installs generally have higher ratings and users tend to trust popular apps more.  
-- Paid apps have slightly higher average ratings than free apps, suggesting estimated worth.  
-- Visualization: Scatterplots showing Ratings vs Installs, and Ratings by Category.
-
- 3️⃣Install Trends
-- Free apps accounts for over 90% of total installs.  
-- Games, Communication, and Social   categories dominate the install counts.  
-- Visualization: Bar plots and heatmaps displaying install trends by category and app type.
-
- 4️⃣Pricing Trends
-- The majority of apps are free, while paid apps cluster below \$10.  
-- Pricing has little correlation with app rating but can influence installs.  
-- Visualization: Histogram of app prices and boxplots comparing paid vs free ratings.
-
-#### 5️⃣ Sentiment Analysis (User Reviews)
-- Text analysis of reviews showed:
-- Majority of user sentiments are positive (words like love, great, useful).  
-- Negative sentiments often relate to ads, bugs, or performance.  
-- Visualization: WordCloud of positive and negative reviews.
+Skills Demonstrated: Regression Modeling, Feature Engineering, Predictive Analytics.
 
 ---
 
-### 📊 Key Insights
-| Insight | Description |
-|----------|--------------|
-High Ratings| Most apps maintain a rating above 4.0. |
-Popular Categories| Games, Family, and Tools are dominated in both count and installs. |
-Free vs Paid| Free apps attract more users but paid apps slightly have better ratings. |
-Install Correlation| High installs strongly correlate with user trust and app quality. |
-Sentiment| User feedback is mostly positive, highlighting satisfaction with design and performance. |
+ 4.  [Marketing Analytics](./project_2_level_1_marketing_analytics.ipynb)
+Goal:To analyze marketing campaign data to improve targeting and customer engagement.  
+Key Insights:
+- Personalized campaigns have higher response rates.
+- Older customer segments respond better to loyalty offers.
+- Direct marketing channels outperform general ads for high-value customers.
+
+Skills Demonstrated: Marketing Data Analysis, Segmentation, EDA, Visualization.
 
 ---
 
-### Conclusions
-- The Android app ecosystem is dominated by free apps, which rely on popularity and usability to gain traction.  
-- User ratings indicates key success, closely tied to installs and visibility.  
-- Data-driven decisions can help developers focus on popular categories and optimize pricing strategies.  
+ Technical Skills
+- Programming: Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)  
+- Data Tools: Excel, SQL, Google Sheets, Jupyter Notebook  
+- Analysis: Data Cleaning, Visualization, Feature Engineering, Statistical Analysis  
+- Soft Skills: Critical Thinking, Business Communication, Problem-Solving  
 
 ---
 
-### Future Work
-- Build an interactive **dashboard** (using Power BI, Streamlit, or Tableau).  
-- Perform **time-series analysis** on app updates and installs.  
-- Integrate **Play Store API** for live data monitoring.
+ Data Storytelling Philosophy
+I believe that every data tells a story and my role as an analyst is to uncover patterns that drive smarter business decisions.  
+Through each project, I focus on clarity, insight, and impact.
 
 ---
 
-  **Author**
-**Oluwatimilehin Amusan**  
- Email: timilehin.amusan1@gmail.com  
- LinkedIn: [[linkedin.com/in/yourprofile](https://www.linkedin.com/in/oluwatimilehin-amusan))  
- GitHub Portfolio: [https://github.com/EsteemTurnsTechy](https://github.com/EsteemTurnsTechy)
+   Contact
+Name:Oluwatimilehin Amusan
+Role: Data Analyst | Business Analyst | Insights Specialist  
+LinkedIn: (https://www.linkedin.com/in/oluwatimilehin-amusan) 
+Email:timilehin.amusan1@gmail.com
 
 ---
 
-### 🏷️ Tags
-`#DataAnalysis` `#EDA` `#Python` `#JupyterNotebook` `#Visualization` `#KaggleDataset`
+> _"Data doesn’t just speak, it reveals opportunities and possiblities."
+> — TechyEsteem
 
-
-### 📁 Repository Structure

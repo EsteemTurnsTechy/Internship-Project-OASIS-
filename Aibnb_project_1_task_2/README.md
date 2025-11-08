@@ -42,7 +42,7 @@ Tools & Libraries
 - Manhattan and Brooklyn dominate the listings and have the highest average prices.  
 - Entire homes/apartments are significantly more expensive than private or shared rooms.  
 - High review counts do **not necessarily correlate with higher prices.  
-- Some hosts manage **multiple listings**, suggesting professional hosting activity.  
+- Some hosts manage multiple listings, suggesting professional hosting activity.  
 
 ---
 

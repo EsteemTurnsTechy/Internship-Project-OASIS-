@@ -2,7 +2,7 @@
 
 Welcome to my Data Analytics Portfolio, a collection of real-world projects that demonstrate my ability to analyze data, visualize insights, and solve business problems using data-driven approaches.
 
-Each project in this repository focuses on a unique domain — from marketing analytics to fraud detection — showcasing my technical, analytical, and storytelling skills.
+Each project in this internship repository focuses on a unique domain — from marketing analytics to fraud detection,showcasing my technical, analytical, and storytelling skills.
 
 ---
 

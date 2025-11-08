@@ -15,8 +15,8 @@ The goal is to understand market trends that influence host performance and gues
 ---
 
   Dataset
-File:** `AB_NYC_2019.csv`  
-Source:** Airbnb Open Data  
+File: `AB_NYC_2019.csv`  
+Source: Airbnb Open Data  
 
 Key Columns:
 - `name`: Listing name  

@@ -68,7 +68,7 @@ Through each project, I focus on clarity, insight, and impact.
 
    Contact
 Name:Oluwatimilehin Amusan
-Role: Data Analyst | Business Analyst | Insights Specialist  
+Role: Data Analyst | Business Analyst | Operations Analyst|Insights Specialist  
 LinkedIn: (https://www.linkedin.com/in/oluwatimilehin-amusan) 
 Email:timilehin.amusan1@gmail.com
 

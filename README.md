@@ -8,7 +8,7 @@ Each project in this internship repository focuses on a unique domain — from m
 
  Projects Overview
 
- 1.  [1. [Android App Market Analysis](Android_App_Market_Analysis/)/)
+ 1. [Android App Market Analysis](Android_App_Market_Analysis/)/)
 Goal:To analyze app market data,to uncover patterns between app ratings, installs, and popularity.  
 Key Insights:
 - Higher ratings correlate with higher installs, but not always with revenue.

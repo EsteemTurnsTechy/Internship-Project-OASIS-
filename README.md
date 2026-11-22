@@ -19,7 +19,7 @@ Skills Demonstrated: Data Wrangling, Trend Analysis, Visualization, App Market I
 
 ---
 
- 2.  [Credit Card Fraud Detection](./Credit_card_Fraud_Detection.ipynb)
+ 2.  [Credit Card Fraud Detection](Credit_Card_Fraud_Detection/)
 Goal:To Identify fraudulent transactions using machine learning classification models.  
 Key Insights:
 - Fraudulent transactions are rare but detectable with model tuning and sampling.

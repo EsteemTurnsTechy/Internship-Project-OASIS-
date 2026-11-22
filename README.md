@@ -30,7 +30,7 @@ Skills Demonstrated: Machine Learning, Data Preprocessing, Model Evaluation, Imb
 
 ---
 
- 3.  [Housing Price Prediction](./housing%20prediction.ipynb)
+ 3. [Housing Price Prediction](Housing_Price_Prediction/)
 Goal:To build a predictive model, to estimate housing prices based on key property attributes.  
 Key Insights:
 - Location and living area are the most influential factors.

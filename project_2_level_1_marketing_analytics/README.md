@@ -1,79 +1,77 @@
- Data Analyst Portfolio – TechyEsteem
+Customer Segmentation Analysis Using K-Means Clustering
 
-Welcome to my Data Analytics Portfolio, a collection of real-world projects that demonstrate my ability to analyze data, visualize insights, and solve business problems using data-driven approaches.
+ Project Overview
 
-Each project in this repository focuses on a unique domain — from marketing analytics to fraud detection — showcasing my technical, analytical, and storytelling skills.
+This project explores customer segmentation using the iFood customer dataset to identify distinct customer groups based on income, age, product spending and purchasing behaviour.
 
----
+The goal is to understand how customers differ in their spending patterns and shopping preferences, enabling businesses to develop targeted marketing strategies, improve customer engagement and make data-driven business decisions.
 
-   Projects Overview
+Using K-Means Clustering, the analysis groups customers with similar characteristics into segments and use the visualisation techniques to explore the differences between these groups.
 
- 1.  [Android App Market Analysis](./Android%20app%20market(project%202,level2).ipynb)
-Goal: To analyze app market data and to uncover patterns between app ratings, installs, and popularity.  
-Key Insights:
-- Higher ratings correlates with higher installs, but not always with revenue.
-- Paid apps perform better in quality metrics, while free apps dominate in downloads.
-- Categories like "Games" and "Productivity" lead in user engagement.
+Objectives
+The Dataset used was downloaded from kaggle
 
-Skills Demonstrated: Data Wrangling, Trend Analysis, Visualization, App Market Insights.
+Dataset: iFood Customer Dataset (`ifood_df.csv`)
 
----
+Records show: 2,205 customers
+•39 columns
+•No missing values detected during initial inspection.
 
- 2.  [Credit Card Fraud Detection](./Credit_card_Fraud_Detection.ipynb)
-Goal: To identify fraudulent transactions using machine learning classification models.  
-Key Insights:
-- Fraudulent transactions are rare but detectable with model tuning and sampling.
-- Logistic Regression and Random Forest provided high accuracy with balanced precision-recall.
-- Feature scaling and resampling improved detection rates.
+Key variables used for clustering include:
 
-Skills Demonstrated: Machine Learning, Data Preprocessing, Model Evaluation, Imbalanced Data Handling.
+- `Income`: Customer income.
+- `Age`: Customer age.
+- `MntWines`: Amount spent on wine products.
+- `MntMeatProducts`: Amount spent on meat products.
+- `NumWebPurchases`: Number of online purchases.
+- `NumStorePurchases`: Number of in-store purchases.
+- `NumCatalogPurchases`: Number of catalogue purchases.
+- `NumWebVisitsMonth`: Number of website visits per month.
 
----
+Tools 
 
- 3. 🏡 [Housing Price Prediction](./housing%20prediction.ipynb)
-Goal: To build a predictive model, to estimate housing prices based on key property attributes.  
-Key Insights:
-- Location and living area are the most influential factors.
-- Linear Regression performed best for continuous value prediction.
-- Data normalization improved model performance and accuracy.
+- Python
+- Google Colab
+- Pandas: Data loading and manipulation.
+- Matplotlib and Seaborn: Data visualisation.
+- Scikit-learn: Data preprocessing, K-Means clustering and PCA.
 
-Skills Demonstrated: Regression Modeling, Feature Engineering, Predictive Analytics.
+ Methodology
+1. Imported the dataset and examined its structure, data types, descriptive statistics and missing values.
 
----
+2. Selected eight demographic, spending and purchasing behaviour variables for customer segmentation.
 
- [Marketing Analytics](./project_2_level_1_marketing_analytics.ipynb)
-Goal: Analyze marketing campaign data to improve targeting and customer engagement.
+3. Applied StandardScaler to standardise the selected features before clustering.
 
-Key Insights:
-- Personalized campaigns have higher response rates.
-- Older customer segments respond better to loyalty offers.
-- Direct marketing channels outperform general ads for high-value customers.
+4. Used the Elbow Method to examine clustering inertia across different values of K, from 1 to 10.
 
-Skills Demonstrated: Marketing Data Analysis, Segmentation, EDA, Visualization.
+5. Applied the K-Means algorithm with four specified clusters to group customers according to similarities in their characteristics.
 
----
+6. Compared average income, age, product spending and purchasing behaviour across customer segments.
 
-   Technical Skills
-- Programming: Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)  
-- Data Tools: Excel, SQL, Google Sheets, Jupyter Notebook  
-- Analysis: Data Cleaning, Visualization, Feature Engineering, Statistical Analysis  
-- Soft Skills: Critical Thinking, Business Communication, Problem-Solving  
+7. Applied Principal Component Analysis (PCA) to reduce the selected features to two dimensions for visualising customer segments.
 
----
+ Key Findings
 
-   Data Storytelling Philosophy
-I believe that every data tells a story and my role as an analyst is to uncover patterns that drive smarter business decisions.  
-Through each project, I focus on clarity, insight, and impact.
+The displayed cluster summaries shows differences in customer income and purchasing behaviour:
 
----
+- Cluster 0: Recorded the highest average income (approximately 77,477) and the highest average spending on wine and meat products among the displayed groups.
+- Cluster 1: Had the lowest average income (approximately 34,475), with comparatively low spending across the analysed product categories.
+- Cluster 2: Recorded an average income of approximately 60,560, with relatively high wine spending and more frequent online purchases than the other displayed groups.
 
-  Contact
- Name: Oluwatimilehin Amusan 
- Role: Data Analyst | Business Analyst | Insights Specialist  
- LinkedIn:(https://www.linkedin.com/in/oluwatimilehin-amusan)
- Email:timilehin.amusan1@gmail.com 
+The visualisations explore customer distribution across segments and the relationship between income and wine spending.
 
----
+ Business Value
+Customer segmentation helps businesses move beyond a one-size-fits-all marketing approach.
 
- _"Data dont just speak, it reveals and predicts opportunities"
- — TechyEsteem
+The analysis provides basis for:
+
+- Developing targeted marketing campaigns.
+- Identifying high-value customer groups.
+- Improving customer retention strategies.
+- Personalising product recommendations and promotions.
+- Understanding customer purchasing preferences across sales channels.
+
+ Skills Demonstrated
+
+Data Cleaning, Exploratory Data Analysis, Feature Selection, Data Standardisation, Unsupervised Machine Learning, K-Means Clustering, Principal Component Analysis (PCA), Data Visualisation and Business Insight Generation.
